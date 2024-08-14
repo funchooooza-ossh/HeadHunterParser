@@ -1,3 +1,4 @@
+#code by funchooooza-ossh. Good luck dude ;)
 from driver import ChromeDriver
 from bs4 import BeautifulSoup
 from selenium.webdriver.common.by import By
