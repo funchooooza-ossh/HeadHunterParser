@@ -1,3 +1,4 @@
+#code by funchooooza-ossh. Good luck dude ;)
 import time
 from multiprocessing.pool import Pool
 import re
@@ -9,6 +10,7 @@ from srcapper import Scrapper
 
 
 def main():     
+    print("#code by funchooooza-ossh. Good luck dude ;)")
     start=time.perf_counter()
     driver = ChromeDriver.get_chromedriver(use_proxy=False,user_agent=True,headless=True)
     url=input('Input your url\nYou can tune your own filters in your browser, then input url to vacancies pool\n')
